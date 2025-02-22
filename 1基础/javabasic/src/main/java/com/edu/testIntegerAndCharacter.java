@@ -1,5 +1,6 @@
 package com.edu;
-public class Main {
+
+public class testIntegerAndCharacter {
     public static void main(String[] args) {
         System.out.println("测试各种基本数据类型及其转化:");
         testInteger();
