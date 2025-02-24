@@ -2,6 +2,8 @@ package com.spring;
 import org.junit.Test;
 public class testSpring {
     basicInterface db=new ImplMysql();//这里是直接硬编码！
+    // basicInterface db=new ImplMysql();//如果改成Oracle又要换成new Oracle()了
+
     @Test   
     public void testMysql(){
         // 调用MySQL的数据库
