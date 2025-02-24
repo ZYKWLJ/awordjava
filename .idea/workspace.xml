@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6573be-c45c-4da6-b9fc-9647cf2556b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2Java8新特性/1.4种内置函数式接口.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Java8新特性/Java8New/src/test/java/com/edu/test4FunctionInterfaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1基础/7.lamabd表达式.md" beforeDir="false" afterPath="$PROJECT_DIR$/1基础/7.lamabd表达式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Java8新特性/2.Optional类.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Java8新特性/Java8New/src/test/java/com/edu/testOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2Java8新特性/1.4种内置函数式接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/2Java8新特性/1.4种内置函数式接口.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +41,9 @@
     "JUnit.test4FunctionInterfaces.testFunction.executor": "Run",
     "JUnit.test4FunctionInterfaces.testPredicate.executor": "Run",
     "JUnit.test4FunctionInterfaces.testSupplier.executor": "Run",
+    "JUnit.testOptional.executor": "Run",
+    "JUnit.testOptional.test.executor": "Run",
+    "JUnit.testOptional.test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -57,24 +67,14 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\1code\java重拾\awordjava\2Java8新特性\Java8New\src\test\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1code\java重拾\awordjava\2Java8新特性" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.edu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test4FunctionInterfaces.testPredicate">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.edu.Main" />
-      <module name="Java8New" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.testOptional.test1">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awordjava" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,22 +93,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
-    </configuration>
-    <configuration name="test4FunctionInterfaces.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8New" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.edu" />
-      <option name="MAIN_CLASS_NAME" value="com.edu.test4FunctionInterfaces" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="test4FunctionInterfaces.testFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8New" />
@@ -142,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test4FunctionInterfaces.testSupplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8New" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +135,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.edu" />
-      <option name="MAIN_CLASS_NAME" value="com.edu.test4FunctionInterfaces" />
-      <option name="METHOD_NAME" value="testSupplier" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.testOptional" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testOptional.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8New" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.testOptional" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testOptional.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8New" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.testOptional" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testOptional.test1" />
+        <item itemvalue="JUnit.testOptional" />
+        <item itemvalue="JUnit.testOptional.test" />
         <item itemvalue="JUnit.test4FunctionInterfaces.testPredicate" />
         <item itemvalue="JUnit.test4FunctionInterfaces.testFunction" />
-        <item itemvalue="JUnit.test4FunctionInterfaces.testSupplier" />
-        <item itemvalue="JUnit.test4FunctionInterfaces.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +200,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740314552578</updated>
       <workItem from="1740314553740" duration="1060000" />
-      <workItem from="1740315661677" duration="1527000" />
+      <workItem from="1740315661677" duration="1677000" />
+      <workItem from="1740359003159" duration="2567000" />
     </task>
     <servers />
   </component>
