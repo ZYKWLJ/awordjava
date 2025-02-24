@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6573be-c45c-4da6-b9fc-9647cf2556b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2Java8新特性/2.Optional类.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2Java8新特性/Java8New/src/test/java/com/edu/testOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2Java8新特性/1.4种内置函数式接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/2Java8新特性/1.4种内置函数式接口.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Java8新特性/3.方法引用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2Java8新特性/Java8New/src/test/java/com/edu/testMethodReference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +33,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Profiler#1",
-    "JUnit.test4FunctionInterfaces.test.executor": "Run",
-    "JUnit.test4FunctionInterfaces.testFunction.executor": "Run",
-    "JUnit.test4FunctionInterfaces.testPredicate.executor": "Run",
-    "JUnit.test4FunctionInterfaces.testSupplier.executor": "Run",
-    "JUnit.testOptional.executor": "Run",
-    "JUnit.testOptional.test.executor": "Run",
-    "JUnit.testOptional.test1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/1code/java重拾/awordjava/2Java8新特性/Java8New/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;JUnit.test4FunctionInterfaces.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test4FunctionInterfaces.testFunction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test4FunctionInterfaces.testPredicate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test4FunctionInterfaces.testSupplier.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testMethodReference.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testOptional.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testOptional.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testOptional.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/1code/java重拾/awordjava/2Java8新特性/Java8New/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\1code\java重拾\awordjava\2Java8新特性\Java8New\src\test\java" />
@@ -74,7 +74,7 @@
       <recent name="com.edu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testOptional.test1">
+  <component name="RunManager" selected="JUnit.testMethodReference.test">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awordjava" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,22 +94,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="test4FunctionInterfaces.testFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8New" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.edu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.edu" />
-      <option name="MAIN_CLASS_NAME" value="com.edu.test4FunctionInterfaces" />
-      <option name="METHOD_NAME" value="testFunction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test4FunctionInterfaces.testPredicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8New" />
       <extension name="coverage">
@@ -121,6 +105,22 @@
       <option name="PACKAGE_NAME" value="com.edu" />
       <option name="MAIN_CLASS_NAME" value="com.edu.test4FunctionInterfaces" />
       <option name="METHOD_NAME" value="testPredicate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMethodReference.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8New" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.edu" />
+      <option name="MAIN_CLASS_NAME" value="com.edu.testMethodReference" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testMethodReference.test" />
         <item itemvalue="JUnit.testOptional.test1" />
         <item itemvalue="JUnit.testOptional" />
         <item itemvalue="JUnit.testOptional.test" />
         <item itemvalue="JUnit.test4FunctionInterfaces.testPredicate" />
-        <item itemvalue="JUnit.test4FunctionInterfaces.testFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,8 @@
       <updated>1740314552578</updated>
       <workItem from="1740314553740" duration="1060000" />
       <workItem from="1740315661677" duration="1677000" />
-      <workItem from="1740359003159" duration="2567000" />
+      <workItem from="1740359003159" duration="3141000" />
+      <workItem from="1740362729803" duration="100000" />
     </task>
     <servers />
   </component>
