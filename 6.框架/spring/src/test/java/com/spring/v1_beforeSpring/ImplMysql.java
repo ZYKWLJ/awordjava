@@ -1,5 +1,8 @@
 package com.spring.v1_beforeSpring;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ImplMysql implements basicInterface{
     @Override
     public void showDBContect(){
