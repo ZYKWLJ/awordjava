@@ -337,8 +337,10 @@ class AgentMethod2 implements InvocationHandler {
 ```
 可以看到，如果想要切换代理顺序或者功能，仅需增加代理类而已，但是静态代理就会修改代理类！这就是动态代理的优点！
 
-# Bean的作用域
+# Spring中的AOP
 
+
+# Bean的作用域
 
 
 # 四、事务
