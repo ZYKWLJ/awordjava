@@ -2,10 +2,11 @@ package com.edu.testTransient;
 
 import java.io.Serializable;
 
-public class User implements Serializable{
-    String name;
+public class UserTransient implements Serializable{
+   String name;
    transient String  password;
-    public User(String name, String password) {
+   transient int[] arr=new int[100000]; 
+    public UserTransient(String name, String password) {
         this.name = name;
         this.password = password;
     }
