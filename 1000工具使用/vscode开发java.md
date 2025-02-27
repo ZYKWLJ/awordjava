@@ -17,3 +17,7 @@ alt+s =》查找：maven.executable.path
 ```shell
 D:\4environment\apache-maven-3.9.9\bin\mvn.cmd
 ```
+
+# ctrl+Z 撤销
+
+# ctrl+Y 取消撤销
