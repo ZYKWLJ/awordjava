@@ -78,7 +78,7 @@ public class LRU<E> {
 
     public static void main(String[] args) {
         LRU<String> lru = new LRU<String>();
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 20000; i++) {
             lru.addE(i+"");
         }
         lru.printE();
