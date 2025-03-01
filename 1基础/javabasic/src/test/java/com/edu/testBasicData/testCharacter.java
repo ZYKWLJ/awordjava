@@ -6,5 +6,6 @@ public class testCharacter {
     @Test
     public void test(){
         Character c=new Character('c');
+        String
     }
 }
