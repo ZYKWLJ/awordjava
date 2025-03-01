@@ -1,27 +1,10 @@
-# 一、核心：在一个类内部自定义该类的比较方法
-也即实现了这个接口，该类就是可以comparable的了，**是可比较的了**!
+package com.edu;
 
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
-# 二、函数式接口——核心方法：compareTo
-源码
-```java
-@FunctionalInterface
-public interface Comparable<T> {
-    public int compareTo(T o);
-}
-```
-
-## int compareTo(T o)
-compareTo方法的返回值是int，有三种情况：
-1、比较者大于被比较者（也就是compareTo方法里面的对象），那么返回**正整数**
-2、比较者等于被比较者，那么返回0
-3、比较者小于被比较者，那么返回**负整数**
-
----
-# 三、实例
-示例代码：
-```java
-
+import org.junit.Test;
 class Student implements Comparable<Student>{//核心点，现在Student类就是可以比较得了！
     String name;
     int age;
@@ -61,4 +44,3 @@ public class testComparable {
         list.stream().forEach(System.out::println);
     }
 }
-```
