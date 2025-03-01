@@ -2,6 +2,7 @@ package com.edu;
 
 import java.sql.Array;
 import java.util.Arrays;
+import java.util.List;
 
 import org.junit.Test;
 
@@ -12,5 +13,7 @@ public class testArrays {
         Arrays.toString(arr);
         System.out.println(arr);
         // Array
+        List;
+        Comparator
     }
 }
