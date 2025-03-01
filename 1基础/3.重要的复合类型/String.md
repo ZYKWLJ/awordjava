@@ -72,3 +72,7 @@ String.trim()
 
 ## 8.分割
 static String join(CharSequence delimiter, CharSequence... elements)
+
+## 9.比较equals
+注意这里是比较的内容！，**==比较的是引用**！！
+![alt text](../img/equals.png)

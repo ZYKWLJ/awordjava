@@ -14,7 +14,7 @@ public class testString {
         System.out.println("2.子串操作\n");
     }
     @Test
-    public void testEquals(){
+    public void testEquals1(){
         String str="abd";
         String str1="abd";
         String str11="abd";
@@ -27,5 +27,12 @@ public class testString {
         System.out.println(str==str2);
         System.out.println(str==str22);
         System.out.println(str==str3);
+    }
+    @Test
+    public void testEquals2(){
+        String str="abd";
+        String str1=new String( "abd");
+        System.out.println(str==str1);
+        System.out.println(str.equals(str1));
     }
 }
