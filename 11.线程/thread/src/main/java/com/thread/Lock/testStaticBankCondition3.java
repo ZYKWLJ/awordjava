@@ -8,7 +8,7 @@ class Bank {
     String name;// 开户人
 
     private static final ReentrantLock lock = new ReentrantLock();
-    private static Condition bankRemainerIsless = lock.newCondition();// 创建一个余额不足的条件变量
+    private static final Condition bankRemainerIsless = lock.newCondition();// 创建一个余额不足的条件变量
 
     public Bank(int remainer, String name) {
         this.remainer = remainer;
