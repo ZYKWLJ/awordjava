@@ -1,4 +1,5 @@
-# isInterrupted() 是 Thread 类的实例方法，用于检查调用该方法的线程对象的中断状态。
+# isInterrupted() 是 Thread 类的实例方法，仅仅检查调用该方法的线程对象的中断状态。
+public boolean isInterrupted()
 
 # 一、作用：
 **检查指定线程对象的中断状态**，如果线程被中断则返回 true，否则返回 false。

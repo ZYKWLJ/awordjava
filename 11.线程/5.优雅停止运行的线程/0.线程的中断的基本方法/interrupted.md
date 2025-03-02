@@ -1,4 +1,5 @@
-# interrupted() ——Thread 类静态方法，用于检查当前线程的中断状态。
+# interrupted() ——Thread 类静态方法，用于检查当前线程的中断状态，并且强制清除中断位(即设置为false)。
+public static boolean interrupted()
 
 # 一、作用
 

@@ -1,5 +1,5 @@
-# 1. interrupt()——对象方法
-
+# 1. interrupt()——对象方法，中断阻塞线程OR设置非阻塞线程的中断位为true(相当于内置标志位)
+public void interrupt()
 ## 一、定义
 interrupt() 是 Thread 类的一个实例方法，用于**中断调用该方法的线程对象**。
 
