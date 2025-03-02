@@ -2,10 +2,11 @@ package com.thread.Lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
-
+// 错误版本：因为这里都不是一个对象，就更别说锁互用了
 class Bank {
     int remainer;// 剩余的钱
     String name;// 开户人
+
     private final ReentrantLock lock = new ReentrantLock();
     private Condition bankRemainerIsless = lock.newCondition();// 创建一个余额不足的条件变量
 
@@ -39,7 +40,7 @@ class Bank {
             b.remainer += amount;// 转账顺利，B增加钱
             System.out.println(this.name + " has transfers " + amount + "￥ to " + b.name + ", Now " + b.name
                     + " 's amount is " + b.remainer);
-            bankRemainerIsless.signalAll();
+            bankRemainerIsless.signalAll();//用于唤醒在该 Condition 上等待的所有线程。
             System.out.println(this.name+" called the signaiAll()....");
 
         } catch (InterruptedException e) {// 对 await() 方法抛出的 InterruptedException 进行单独处理，并恢复中断状态。
@@ -54,6 +55,7 @@ class Bank {
 public class testBankCondition3 {
     public static void main(String[] args) throws InterruptedException {
         System.out.println(Thread.currentThread().getName()+" is running--Main\n");
+    // 错误版本：因为这里都不是一个对象，就更别说锁互用了
 
         Bank A = new Bank(1000, "A");
         Bank B = new Bank(2000, "B");
