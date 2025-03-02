@@ -18,4 +18,5 @@ public class testInterrupt {
         Thread.sleep(500);
         // thread.interrupt();// 主线程中断附线程
     }
+
 }
