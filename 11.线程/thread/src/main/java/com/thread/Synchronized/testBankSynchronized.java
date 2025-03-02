@@ -1,8 +1,5 @@
 package com.thread.Synchronized;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-
 class Bank {
     int remainer;// 剩余的钱
     String name;// 开户人
@@ -23,32 +20,23 @@ class Bank {
     }
 
     // 给别人转账
-    public synchronized void  transferToOther(Bank b, int amount) throws InterruptedException {
-        // lock.lock();
-        try {
-            while (this.remainer < amount) {// 余额不足，A暂停转账，等别人转给他,一直查询，防止虚假唤醒！
+    public static void transferToOther(Bank from ,Bank to, int amount) throws InterruptedException {
+        synchronized (Bank.class) {//这样用synchronized给整个类对象加锁！
+            while (from.remainer < amount) {
                 System.out.println(
-                        this.name + " wants to transfer " + amount + " to " + b.getName() + " ,but " + this.name
-                                + " 's remainer is " + this.remainer + " ,not enough, waiting other transfer to it...");
-                System.out.println(this.name + " is waiting...");
-                // bankRemainerIsless.await();// ...暂停。。。。等待别人给他转账了才能继续！
-                this.wait();
-                System.out.println(this.name + " is awakened...");
+                        from.name + " wants to transfer " + amount + " to " + to.getName() + " ,but " + from.name
+                                + " 's remainer is " + from.remainer + " ,not enough, waiting other transfer to it...");
+                System.out.println(from.name + " is waiting...");
+                Bank.class.wait();
+                System.out.println(from.name + " is awakened...");
             }
 
-            this.remainer -= amount;// 转账顺利，A减少钱
-            b.remainer += amount;// 转账顺利，B增加钱
-            System.out.println(this.name + " has transfers " + amount + "￥ to " + b.name + ", Now " + b.name
-                    + " 's amount is " + b.remainer);
-            this.notifyAll();
-            // bankRemainerIsless.signalAll();
-            // System.out.println(this.name + " called the signaiAll()....");
-            System.out.println(this.name + " called the notifyAll()....");
-        } catch (InterruptedException e) {// 对 await() 方法抛出的 InterruptedException 进行单独处理，并恢复中断状态。
-            System.out.println(this.name + " is interrupted during waiting.");
-            Thread.currentThread().interrupt();
-        } finally {
-            // lock.unlock();
+            from.remainer -= amount;
+            to.remainer += amount;
+            System.out.println(from.name + " has transferred " + amount + "￥ to " + to.name + ", Now " + to.name
+                    + " 's amount is " + to.remainer);
+            Bank.class.notifyAll();
+            System.out.println(from.name + " called the notifyAll()....");
         }
     }
 }
@@ -63,7 +51,7 @@ public class testBankSynchronized {
         Thread A2B = new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + " is running--A2B");
             try {
-                A.transferToOther(B, 1500);
+               Bank.transferToOther(A,B, 1500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -81,7 +69,7 @@ public class testBankSynchronized {
             }
 
             try {
-                C.transferToOther(A, 600);
+                Bank.transferToOther(C,A, 600);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
