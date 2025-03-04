@@ -1,4 +1,4 @@
-package com.thread.testJoin;
+package com.thread.testTaBeforeTb;
 
 public class testJoin {
     public static void main(String[] args) throws InterruptedException {
@@ -14,7 +14,7 @@ public class testJoin {
             }
             System.out.println("my second execute~~");
         });
-        
+
         t1.start();
         t2.start();
         t2.join();
