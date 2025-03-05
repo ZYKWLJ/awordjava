@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mindmap" class="markmap mindmap"><style>.markmap {
+  --markmap-max-width: 9999px;
+  --markmap-a-color: #0097e6;
+  --markmap-a-hover-color: #00a8ff;
+  --markmap-code-bg: #f0f0f0;
+  --markmap-code-color: #555;
+  --markmap-highlight-bg: #ffeaa7;
+  --markmap-table-border: 1px solid currentColor;
+  --markmap-font: 300 16px/20px sans-serif;
+  --markmap-circle-open-bg: #fff;
+  --markmap-text-color: #333;
+  --markmap-highlight-node-bg: #ff02;
+
+  font: var(--markmap-font);
+  color: var(--markmap-text-color);
+}
+
+  .markmap-link {
+    fill: none;
+  }
+
+  .markmap-node &gt; circle {
+      cursor: pointer;
+    }
+
+  .markmap-foreign {
+    display: inline-block;
+  }
+
+  .markmap-foreign p {
+      margin: 0;
+    }
+
+  .markmap-foreign a {
+      color: var(--markmap-a-color);
+    }
+
+  .markmap-foreign a:hover {
+        color: var(--markmap-a-hover-color);
+      }
+
+  .markmap-foreign code {
+      padding: 0.25em;
+      font-size: calc(1em - 2px);
+      color: var(--markmap-code-color);
+      background-color: var(--markmap-code-bg);
+      border-radius: 2px;
+    }
+
+  .markmap-foreign pre {
+      margin: 0;
+    }
+
+  .markmap-foreign pre &gt; code {
+        display: block;
+      }
+
+  .markmap-foreign del {
+      text-decoration: line-through;
+    }
+
+  .markmap-foreign em {
+      font-style: italic;
+    }
+
+  .markmap-foreign strong {
+      font-weight: bold;
+    }
+
+  .markmap-foreign mark {
+      background: var(--markmap-highlight-bg);
+    }
+
+  .markmap-foreign table,
+    .markmap-foreign th,
+    .markmap-foreign td {
+      border-collapse: collapse;
+      border: var(--markmap-table-border);
+    }
+
+  .markmap-foreign img {
+      display: inline-block;
+    }
+
+  .markmap-foreign svg {
+      fill: currentColor;
+    }
+
+  .markmap-foreign &gt; div {
+      width: var(--markmap-max-width);
+      text-align: left;
+    }
+
+  .markmap-foreign &gt; div &gt; div {
+        display: inline-block;
+      }
+
+  .markmap-highlight rect {
+    fill: var(--markmap-highlight-node-bg);
+  }
+
+.markmap-dark .markmap {
+  --markmap-code-bg: #1a1b26;
+  --markmap-code-color: #ddd;
+  --markmap-circle-open-bg: #444;
+  --markmap-text-color: #eee;
+}
+</style><g transform="translate(43.07381902172392,384.15607147928904) scale(0.461568718480596)"><path class="markmap-link" data-depth="4" data-path="1.2.4.5" d="M593,-730.885C633,-730.885,633,-697.479,673,-697.479" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.7.8.9" d="M911,-666.338C951,-666.338,951,-632.861,991,-632.861" stroke-width="1.046875" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.7.10.11" d="M927,-598.291C967,-598.291,967,-594.814,1007,-594.814" stroke-width="1.046875" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.7.12.13" d="M943,-510.244C983,-510.244,983,-456.768,1023,-456.768" stroke-width="1.046875" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.7.8" d="M751,-588.244C791,-588.244,791,-666.338,831,-666.338" stroke-width="1.09375" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.7.10" d="M751,-588.244C791,-588.244,791,-598.291,831,-598.291" stroke-width="1.09375" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.7.12" d="M751,-588.244C791,-588.244,791,-510.244,831,-510.244" stroke-width="1.09375" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.14.15.16" d="M929,-422.197C969,-422.197,969,-418.721,1009,-418.721" stroke-width="1.046875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.14.18.19" d="M945,-324.15C985,-324.15,985,-260.674,1025,-260.674" stroke-width="1.046875" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.14.15" d="M753,-373.127C793,-373.127,793,-422.197,833,-422.197" stroke-width="1.09375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.14.17" d="M753,-373.127C793,-373.127,793,-373.174,833,-373.174" stroke-width="1.09375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.14.18" d="M753,-373.127C793,-373.127,793,-324.15,833,-324.15" stroke-width="1.09375" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.20.21.22" d="M926,-226.104C966,-226.104,966,-222.627,1006,-222.627" stroke-width="1.046875" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.20.23.24" d="M926,-158.057C966,-158.057,966,-124.58,1006,-124.58" stroke-width="1.046875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="6" data-path="1.2.6.20.25.26" d="M942,-20.01C982,-20.01,982,53.467,1022,53.467" stroke-width="1.046875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.20.21" d="M750,-123.01C790,-123.01,790,-226.104,830,-226.104" stroke-width="1.09375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.20.23" d="M750,-123.01C790,-123.01,790,-158.057,830,-158.057" stroke-width="1.09375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="5" data-path="1.2.6.20.25" d="M750,-123.01C790,-123.01,790,-20.01,830,-20.01" stroke-width="1.09375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="4" data-path="1.2.6.7" d="M641,-355.533C681,-355.533,681,-588.244,721,-588.244" stroke-width="1.1875" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="4" data-path="1.2.6.14" d="M641,-355.533C681,-355.533,681,-373.127,721,-373.127" stroke-width="1.1875" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.2.6.20" d="M641,-355.533C681,-355.533,681,-123.01,721,-123.01" stroke-width="1.1875" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="3" data-path="1.2.3" d="M420,-575.459C460,-575.459,460,-795.76,500,-795.76" stroke-width="1.375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.2.4" d="M420,-575.459C460,-575.459,460,-730.885,500,-730.885" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="3" data-path="1.2.6" d="M420,-575.459C460,-575.459,460,-355.533,500,-355.533" stroke-width="1.375" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.27.28" d="M504,148.365C544,148.365,544,211.678,584,211.678" stroke-width="1.375" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.29.30.31" d="M564,306.553C604,306.553,604,369.959,644,369.959" stroke-width="1.1875" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="3" data-path="1.29.30" d="M420,365.834C460,365.834,460,306.553,500,306.553" stroke-width="1.375" stroke="rgb(23, 190, 207)"/><path class="markmap-link" data-depth="3" data-path="1.29.32" d="M420,365.834C460,365.834,460,424.74,500,424.74" stroke-width="1.375" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="4" data-path="1.34.35.36" d="M660,522.928C700,522.928,700,566.334,740,566.334" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.34.35" d="M452,597.209C492,597.209,492,522.928,532,522.928" stroke-width="1.375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="3" data-path="1.34.37" d="M452,597.209C492,597.209,492,671.115,532,671.115" stroke-width="1.375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="2" data-path="1.2" d="M228,11.25C268,11.25,268,-575.459,308,-575.459" stroke-width="1.75" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="2" data-path="1.27" d="M228,11.25C268,11.25,268,148.365,308,148.365" stroke-width="1.75" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="2" data-path="1.29" d="M228,11.25C268,11.25,268,365.834,308,365.834" stroke-width="1.75" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="2" data-path="1.34" d="M228,11.25C268,11.25,268,597.209,308,597.209" stroke-width="1.75" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="4" data-path="1.34.37.38" d="M868,671.115C908,671.115,908,744.521,948,744.521" stroke-width="1.1875" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="4" data-path="1.29.32.33" d="M596,424.74C636,424.74,636,448.146,676,448.146" stroke-width="1.1875" stroke="rgb(44, 160, 44)"/><g class="markmap-highlight"><rect x="943.022633428113" y="571.950367803113" width="715.9547331437741" height="176.95473314377412"/></g><g data-depth="3" data-path="1.2.3" class="markmap-node" transform="translate(500, -816.447265625)"><line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="175" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="157" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">0.如何转化为主节点？</div></div></foreignObject></g><g data-depth="4" data-path="1.2.4.5" class="markmap-node" transform="translate(673, -785.072265625)"><line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="187" y1="87.59375" y2="87.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="169" height="87"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="11,17"><code class="language-C">F-&gt;C:超时，发起选举
+C-&gt;L:收到多数票当选
+L-&gt;F:任期落后
+C-&gt;F:发现L或者任期落后
+</code></pre></div></div></foreignObject></g><g data-depth="3" data-path="1.2.4" class="markmap-node" transform="translate(500, -751.572265625)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="95" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="93" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="77" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">1.三种状态</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.7.8.9" class="markmap-node" transform="translate(991, -720.384765625)"><line stroke="#bcbd22" stroke-width="1.046875" x1="-1" x2="235" y1="87.5234375" y2="87.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="217" height="87"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="27,33"><code class="language-C">1.初始
+2.F-&gt;F(来自L的压迫、宕机)
+3.C-&gt;F(发现更高任期/L、宕机)
+4.L-&gt;F(发现更高任期、宕机)
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.7.8" class="markmap-node" transform="translate(831, -686.884765625)"><line stroke="#7f7f7f" stroke-width="1.09375" x1="-1" x2="82" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="80" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">触发条件</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.7.10.11" class="markmap-node" transform="translate(1007, -622.337890625)"><line stroke="#1f77b4" stroke-width="1.046875" x1="-1" x2="372" y1="27.5234375" y2="27.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="354" height="27"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="34,37"><code class="language-C">Follower节点没有能不能成，一定成，只是触发条件！
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.7.10" class="markmap-node" transform="translate(831, -618.837890625)"><line stroke="#17becf" stroke-width="1.09375" x1="-1" x2="98" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="96" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">能不能成？</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.7.12.13" class="markmap-node" transform="translate(1023, -584.291015625)"><line stroke="#2ca02c" stroke-width="1.046875" x1="-1" x2="235" y1="127.5234375" y2="127.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="217" height="127"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="39,47"><code class="language-C">1.三大件：
+1.1 任期向主节点靠齐
+1.2 重置投票
+
+2.持久化：
+如果任期改变的话，需要持久化！
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.7.12" class="markmap-node" transform="translate(831, -530.791015625)"><line stroke="#ff7f0e" stroke-width="1.09375" x1="-1" x2="114" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="112" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="96" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">成了干什么？</div></div></foreignObject></g><g data-depth="4" data-path="1.2.6.7" class="markmap-node" transform="translate(721, -608.837890625)"><line stroke="#e377c2" stroke-width="1.1875" x1="-1" x2="32" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#e377c2" fill="var(--markmap-circle-open-bg)" cx="30" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="14" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">F:</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.14.15.16" class="markmap-node" transform="translate(1009, -446.244140625)"><line stroke="#8c564b" stroke-width="1.046875" x1="-1" x2="98" y1="27.5234375" y2="27.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="27"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="52,55"><code class="language-C">F 选举超时
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.14.15" class="markmap-node" transform="translate(833, -442.744140625)"><line stroke="#9467bd" stroke-width="1.09375" x1="-1" x2="98" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#9467bd" fill="var(--markmap-circle-open-bg)" cx="96" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">触发条件？</div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.14.17" class="markmap-node" transform="translate(833, -393.720703125)"><line stroke="#e377c2" stroke-width="1.09375" x1="-1" x2="98" y1="20.546875" y2="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">能不能成？</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.14.18.19" class="markmap-node" transform="translate(1025, -408.197265625)"><line stroke="#bcbd22" stroke-width="1.046875" x1="-1" x2="619" y1="147.5234375" y2="147.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="601" height="147"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="59,68"><code class="language-C">1.三大件：
+1.1 重置选举时钟(本来就是时钟超时了成为的，那当然需要重置时钟)(期待下一次选举成为L)
+1.2 任期+1
+1.3 投自己一票
+
+2.持久化：
+一定会持久化！因为三大件至少有任期变化了！
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.14.18" class="markmap-node" transform="translate(833, -344.697265625)"><line stroke="#7f7f7f" stroke-width="1.09375" x1="-1" x2="114" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="112" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="96" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">成了干什么？</div></div></foreignObject></g><g data-depth="4" data-path="1.2.6.14" class="markmap-node" transform="translate(721, -393.720703125)"><line stroke="#d62728" stroke-width="1.1875" x1="-1" x2="34" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="32" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="16" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">C:</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.20.21.22" class="markmap-node" transform="translate(1006, -250.150390625)"><line stroke="#ff7f0e" stroke-width="1.046875" x1="-1" x2="215" y1="27.5234375" y2="27.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="197" height="27"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="71,74"><code class="language-C">本身是C的前提下多数投票赞同
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.20.21" class="markmap-node" transform="translate(830, -246.650390625)"><line stroke="#1f77b4" stroke-width="1.09375" x1="-1" x2="98" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="96" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">触发条件？</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.20.23.24" class="markmap-node" transform="translate(1006, -212.103515625)"><line stroke="#d62728" stroke-width="1.046875" x1="-1" x2="154" y1="87.5234375" y2="87.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="136" height="87"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="75,81"><code class="language-C">赞同的条件：
+1.任期最高
+2.日志最新
+3.节点本身没投过票
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.20.23" class="markmap-node" transform="translate(830, -178.603515625)"><line stroke="#2ca02c" stroke-width="1.09375" x1="-1" x2="98" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="96" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">能不能成？</div></div></foreignObject></g><g data-depth="6" data-path="1.2.6.20.25.26" class="markmap-node" transform="translate(1022, -114.056640625)"><line stroke="#8c564b" stroke-width="1.046875" x1="-1" x2="753" y1="167.5234375" y2="167.5234375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="735" height="167"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="84,94"><code class="language-C">1.收敛前的准备工作：
+1.1重置已匹配、待匹配下标：
+commitIndex=0、nextIndex=log.size()
+
+2.正式收敛
+2.1心跳循环。后台线程等间隔的发送心跳/复制日志replicationTicker
+2.2每次replicationTicker时，检测上下文，具体来说是检测自己还是不是当前的Leader，不是就立即退出loop
+
+</code></pre></div></div></foreignObject></g><g data-depth="5" data-path="1.2.6.20.25" class="markmap-node" transform="translate(830, -40.556640625)"><line stroke="#9467bd" stroke-width="1.09375" x1="-1" x2="114" y1="20.546875" y2="20.546875"/><circle stroke-width="1.5" r="6" stroke="#9467bd" fill="var(--markmap-circle-open-bg)" cx="112" cy="20.546875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="96" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">成了干什么？</div></div></foreignObject></g><g data-depth="4" data-path="1.2.6.20" class="markmap-node" transform="translate(721, -143.603515625)"><line stroke="#17becf" stroke-width="1.1875" x1="-1" x2="31" y1="20.59375" y2="20.59375"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="29" cy="20.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="13" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">L:</div></div></foreignObject></g><g data-depth="3" data-path="1.2.6" class="markmap-node" transform="translate(500, -376.220703125)"><line stroke="#8c564b" stroke-width="1.375" x1="-1" x2="143" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="141" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="125" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">2.角色转换的巧记</div></div></foreignObject></g><g data-depth="2" data-path="1.2" class="markmap-node" transform="translate(308, -596.333984375)"><line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="114" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="112" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="96" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">一、角色转换</div></div></foreignObject></g><g data-depth="3" data-path="1.27.28" class="markmap-node" transform="translate(584, 63.990234375)"><line stroke="#7f7f7f" stroke-width="1.375" x1="-1" x2="840" y1="147.6875" y2="147.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="822" height="147"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="96,105"><code class="language-c">和选举逻辑相对，我们也分三个层次来实现 RPC 发送方：​    
+
+1. 心跳 Loop：在**当选 Leader 后起一个后台线程**，等**间隔的发送心跳/复制日志**，称为 replicationTicker​    
+
+2. 单轮心跳：对**除自己外的所有 Peer 发送一个心跳 RPC**，称为 startReplication​
+
+3. 单次 RPC：对某个 Peer 来发送心跳，并且处理 RPC 返回值，称为 replicateToPeer
+</code></pre></div></div></foreignObject></g><g data-depth="2" data-path="1.27" class="markmap-node" transform="translate(308, 127.490234375)"><line stroke="#e377c2" stroke-width="1.75" x1="-1" x2="198" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#e377c2" fill="var(--markmap-circle-open-bg)" cx="196" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="180" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">二、心跳逻辑(收敛+压制)</div></div></foreignObject></g><g data-depth="4" data-path="1.29.30.31" class="markmap-node" transform="translate(644, 222.365234375)"><line stroke="#1f77b4" stroke-width="1.1875" x1="-1" x2="809" y1="147.59375" y2="147.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="791" height="147"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="108,117"><code class="language-c">之前 PartA 是没有加日志的，仅仅是选举，现在在心跳里面加入日志。即：​    
+
+1. 在进行领导者选举时，要加入日志的比较。​    
+
+2. 领导者收到应用层发来日志后（raft.Start），要通过**心跳同步给所有 Follower**。​    
+
+3. 在收到多数 Follower **同步成功**的请求后，**Leader 要推进 CommitIndex**，并让所有 **Peer Apply**。
+</code></pre></div></div></foreignObject></g><g data-depth="3" data-path="1.29.30" class="markmap-node" transform="translate(500, 285.865234375)"><line stroke="#17becf" stroke-width="1.375" x1="-1" x2="66" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="64" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="48" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">综述：</div></div></foreignObject></g><g data-depth="4" data-path="1.29.32.33" class="markmap-node" transform="translate(676, 380.552734375)"><line stroke="#2ca02c" stroke-width="1.1875" x1="-1" x2="845" y1="67.59375" y2="67.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="827" height="67"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="118,123"><code class="language-c">总体上来说，Leader 需要维护一个各个 Peer 的**进度视图（nextIndex 和 matchIndex 数组）**。
+其中 nextIndex 用于进行日志同步时的**匹配点试探**，matchIndex 用于**日志同步成功后的匹配点记录**。
+依据全局匹配点分布，我们可以计算出当前全局的 commitIndex，然后再通过之后轮次的日志复制 RPC 下发给各个 Follower。
+</code></pre></div></div></foreignObject></g><g data-depth="3" data-path="1.29.32" class="markmap-node" transform="translate(500, 404.052734375)"><line stroke="#ff7f0e" stroke-width="1.375" x1="-1" x2="98" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="96" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">详细情况：</div></div></foreignObject></g><g data-depth="2" data-path="1.29" class="markmap-node" transform="translate(308, 344.958984375)"><line stroke="#bcbd22" stroke-width="1.75" x1="-1" x2="114" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#bcbd22" fill="var(--markmap-circle-open-bg)" cx="112" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="96" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">三、日志同步</div></div></foreignObject></g><g data-depth="4" data-path="1.34.35.36" class="markmap-node" transform="translate(740, 458.740234375)"><line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="829" y1="107.59375" y2="107.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="811" height="107"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="126,133"><code class="language-c">于一个长时间运行的 Raft 系统，如果持续收到日志，会遇到以下问题：​    
+
+1. 空间不够：如果日志无限追加下去，本地硬盘空间可能存不下。​    
+
+2. 重启过慢：因为重启时需要重放（ replay）所有日志，如果日志过长，重放过程将会持续很久不能正常对外提供服务。​    
+</code></pre></div></div></foreignObject></g><g data-depth="3" data-path="1.34.35" class="markmap-node" transform="translate(532, 502.240234375)"><line stroke="#9467bd" stroke-width="1.375" x1="-1" x2="130" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#9467bd" fill="var(--markmap-circle-open-bg)" cx="128" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="112" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">原始系统的问题</div></div></foreignObject></g><g data-depth="4" data-path="1.34.37.38" class="markmap-node" transform="translate(948, 576.927734375)"><line stroke="#7f7f7f" stroke-width="1.1875" x1="-1" x2="708" y1="167.59375" y2="167.59375"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="690" height="167"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><pre data-lines="135,145"><code class="language-c">一个经典的解决办法是，**定期对日志做快照（snapshot）**
+
+针对某个日志 entry 做了快照之后，该 entry 以及以前的日志变都可以**被截断**（truncate）。
+当然，这种方法能解决的我们上面两个问题的本质原因在于：
+
+相比日志，**快照的存储更为紧凑**。日志记录的是事件（比如 update k1 = v2），
+而快照通常记录的是数据条目（比如 {k1: v1, k2: v2}），而**一个数据条目通常会在事件中出现多次**
+（写入-更新-删除等等），因此从**日志到快照通常会有压缩空间**。(从一个记录全部到只记录修改的优化)
+</code></pre></div></div></foreignObject></g><g data-depth="3" data-path="1.34.37" class="markmap-node" transform="translate(532, 650.427734375)"><line stroke="#e377c2" stroke-width="1.375" x1="-1" x2="338" y1="20.6875" y2="20.6875"/><circle stroke-width="1.5" r="6" stroke="#e377c2" fill="var(--markmap-circle-open-bg)" cx="336" cy="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="320" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">快照的优点——从记录全部到记录修改的优化</div></div></foreignObject></g><g data-depth="2" data-path="1.34" class="markmap-node" transform="translate(308, 576.333984375)"><line stroke="#d62728" stroke-width="1.75" x1="-1" x2="146" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="144" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="128" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">四、日志快照压缩</div></div></foreignObject></g><g data-depth="1" data-path="1" class="markmap-node" transform="translate(0, -10)"><line stroke="#1f77b4" stroke-width="2.5" x1="-1" x2="230" y1="21.25" y2="21.25"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="228" cy="21.25"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="212" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">一句话:从节点向主节点收敛！</div></div></foreignObject></g></g></svg>
