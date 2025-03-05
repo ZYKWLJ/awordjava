@@ -12,5 +12,6 @@ public class testQueue {
         Deque<Integer> queue=new LinkedList<>() {
             
         };
+        Queue
     }
 }

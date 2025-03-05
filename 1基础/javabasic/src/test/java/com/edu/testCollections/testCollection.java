@@ -12,6 +12,7 @@ public class testCollection {
     Queue<Integer>queue=new LinkedList<>();
     Map<Integer,Integer>map=new HashMap<>();
     Map<Integer,Integer>map1=new Hashtable<>();
+//     测试所有的Collection系列的接口方法
     
    @Test
    public void testHashSet(){
