@@ -14,11 +14,10 @@ public class TestChannal1 {
             buffer.put("those date were wrote by kernel".getBytes());
             // 将buffer换成读模式
             buffer.flip();
-            // 要使用内核写出
+            // 要使用内核写出(往内核里面写，然后内核在写到file里面)
             channel.write(buffer);
             channel.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

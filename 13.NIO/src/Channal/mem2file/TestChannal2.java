@@ -15,6 +15,7 @@ public class TestChannal2 {
             // 获取内存空间抽象Buffer
             ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
             // 由内核向内存里面写
+            // 内核向内存里面写
             int i = channel.read(byteBuffer);
             System.out.println("读写个数："+i+"Byte");
             // 打印内存内容
