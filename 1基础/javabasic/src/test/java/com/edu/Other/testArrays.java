@@ -1,4 +1,4 @@
-package com.edu;
+package com.edu.Other;
 
 import java.sql.Array;
 import java.util.Arrays;

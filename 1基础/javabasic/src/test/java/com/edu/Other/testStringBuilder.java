@@ -1,4 +1,4 @@
-package com.edu;
+package com.edu.Other;
 
 import org.junit.Test;
 

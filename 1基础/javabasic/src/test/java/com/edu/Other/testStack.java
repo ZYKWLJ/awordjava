@@ -1,4 +1,4 @@
-package com.edu;
+package com.edu.Other;
 
 import java.util.LinkedList;
 import java.util.Stack;

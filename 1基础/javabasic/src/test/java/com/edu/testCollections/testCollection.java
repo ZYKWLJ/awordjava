@@ -1,9 +1,11 @@
 package com.edu.testCollections;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 import org.junit.Test;
@@ -22,5 +24,12 @@ public class testCollection {
    public void testHashMap(){
         map1.put(1, 1);
         map1.forEach((k,v)->System.out.println(k+" "+v));
+        Stack;
+        ArrayList
+        LinkedList
+        PriorityQueue
+        TreeSet
+        HashSet
    }
+   
 }

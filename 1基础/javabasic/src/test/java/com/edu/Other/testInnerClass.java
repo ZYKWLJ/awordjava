@@ -1,4 +1,4 @@
-package com.edu;
+package com.edu.Other;
 
 /**
  * @Author: Ethan Yankang
