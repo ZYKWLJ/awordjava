@@ -2,7 +2,7 @@ import java.util.*;
 
 import javax.smartcardio.TerminalFactory;
 
-public class Solution {
+public class Main {
 
     List<List<Integer>> list = new LinkedList<List<Integer>>();
     List<Integer> temp = new LinkedList<Integer>();
@@ -58,7 +58,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] nums = { 2, 5, 2, 1, 2 };
         int target = 5;
-        Solution solution = new Solution();
+        Main solution = new Main();
         System.out.println(solution.combinationSum2(nums, target));
     }
 }
