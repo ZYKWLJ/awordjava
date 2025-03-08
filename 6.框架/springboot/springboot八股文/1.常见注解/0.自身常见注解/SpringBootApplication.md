@@ -24,3 +24,6 @@ why com.example?
 再加上版本号，三者唯一定位构成 Maven 中央仓库的依赖坐标
 ```
 
+# 二、@Profile("!test")
+这是一个**条件注解**，表示只有当当前的 **Spring 配置文件不是 test**时，这个 Bean 才会被创建和注册。!test 表示取反，即非 test 配置文件。
+
