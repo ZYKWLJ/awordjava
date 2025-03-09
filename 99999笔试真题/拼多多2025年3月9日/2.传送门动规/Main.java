@@ -4,11 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        // 注意 hasNext 和 hasNextLine 的区别
-        // dp[i][j]，dp[i][0]表示到坐标j时不使用传送门的最大距离，dp[i][1]表示使用传送门的最大距离
         int n=in.nextInt();
         int ans=0,s=0;
-        // int left=0,right=0;
         int[] arr=new int[n];
         int[][]dp=new int[n][2];//第一个维度是坐标，第二个维度是是否使用了，总的dp[][]就是最大距离！
         for(int i=0;i<n;i++){
