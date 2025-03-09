@@ -38,4 +38,3 @@ public class Ans2 {
         System.out.println(maxDist);
     }
 }
- git commit - a -m "dp[i][j]定义为在下标i处的累计使用传送门次数为j时的离原点的最大距离"
