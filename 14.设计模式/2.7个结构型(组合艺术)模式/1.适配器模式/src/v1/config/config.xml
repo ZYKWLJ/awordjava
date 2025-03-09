@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+    <className>v1.OperationAdapter</className>
+    <quickSortClassName>v1.QuickSort</quickSortClassName>
+    <binarySearchClassName>v1.BinarySearch</binarySearchClassName>
+</config>
