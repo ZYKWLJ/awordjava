@@ -1,6 +1,8 @@
 package v1;
 
-public class OperationAdapter implements ScoreOperation {
+public class OperationAdapter implements ScoreOperation {//实现类是客户端使用的接口
+    // 这两个属性是适配的接口
+    // 通过这个类就将适配的两个类连接起来了！
     private QuickSort sortObj;
     private BinarySearch binarySearch;
 
