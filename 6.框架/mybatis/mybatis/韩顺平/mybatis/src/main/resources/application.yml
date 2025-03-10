@@ -1,0 +1,19 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: zyk
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.sac.demo.entity
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com:
+      sac:
+        demo:
+          mapper : debug
