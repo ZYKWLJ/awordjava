@@ -333,3 +333,5 @@ mysql> SHOW VARIABLES LIKE 'transaction_isolation';
 +-----------------------+-----------------+
 1 row in set (0.00 sec)
 
+mysql> Terminal close -- exit!
+Aborted
