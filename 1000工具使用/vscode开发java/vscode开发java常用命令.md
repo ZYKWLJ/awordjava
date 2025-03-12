@@ -22,3 +22,6 @@ D:\4environment\apache-maven-3.9.9\bin\mvn.cmd
 
 # ctrl+Y 取消撤销
 
+# 忽略大小写区别
+https://blog.csdn.net/sky2012lty/article/details/132323594
+
